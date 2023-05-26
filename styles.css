@@ -1,0 +1,84 @@
+.indexbody,.aboutbody{
+    font-family:'Merienda', cursive;
+    text-align: center;
+    
+}
+.index_section2,.about_section2{
+    margin-bottom: 0;
+}
+.index_bullet_points,.about_bullet_points{
+    margin-top: 0;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.indexline{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.aboutline{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.hyper1{
+    text-decoration: none;
+    color: rgb(86, 96, 245);
+}
+
+
+.button {
+    font-family:'Merienda', cursive;
+    background-color: #6b47fc;
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+.section1{
+    line-height: 0.5;
+}
+
+
+.section3{
+    line-height: 0.5;
+}
+
+
+
+table,th,td{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    margin: auto;
+    border: 1.5px solid black;
+    width: 25%;
+}
+
+th,td{
+    padding: 5px;
+}
+
+caption{
+    font-size: 26px;
+    margin-bottom: 23px;
+}
+.first_name,.last_name,.age{
+    text-align: left;
+}
