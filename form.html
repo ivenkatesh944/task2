@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+    <form class="form"action="">
+        <h2>Contact Form</h2>
+        <div class="section">
+            <label for="name" class="lable-w">Name:</label>
+            <input type="text" name="name" id="name"  class="input-w" placeholder="Enter your Name" required>
+        </div>
+        <div class="section">
+            <label for="username" class="lable-w">Username:</label>
+            <input type="text" name="username" id="username" class="input-w"  placeholder="Enter your username" required>
+        </div>
+        <div class="section">
+            <label for="password" class="lable-w">Password:</label>
+            <input type="password" name="password" id="password" class="input-w"  placeholder="Enter your password" pattern="[a-zA-z]{10}" required>
+            
+        </div>
+        <div class="section">
+            <label for="retypepassword" class="lable-w" >Re-type Password:</label>
+            <input type="text" name="retypepassword" id="retypepassword" class="input-w"  placeholder="Enter your password" pattern="[a-zA-z]{10}" required>
+        </div>
+        <div class="section">
+            <label for="gender" class="lable-w">Gender:</label>
+            <label for="male"><input type="radio" name="gender" id="male">Male</label>
+            <label for="female"><input type="radio" name="gender" id="female">Female</label> 
+        </div>
+        <div class="section">
+            <label for="techie-skills" class="lable-w">Techie Skills:</label>
+            <label for="html"><input type="checkbox" name="html" id="html">HTML</label>
+            <label for="css"><input type="checkbox" name="css" id="css">CSS</label>
+            <label for="javascript"><input type="checkbox" name="javascript" id="javascript">JavaScript</label>
+        </div>
+        <div class="section">
+            <label for="phonenumber" class="lable-w">Phone Number:</label>
+            <input type="tel" name="phonenumber" id="phonenumber"  class="input-w" placeholder="Enter your Phone Number" pattern="[0-9]{3}-[0-9]{8}"  required>
+        </div>
+        <div class="section">
+            <label for="email" class="lable-w">Email:</label>
+            <input type="email" name="email" id="email"  class="input-w" placeholder="Enter your Email address"   required>
+        </div>
+        <div class="section">
+            <label for="college" class="lable-w" id="">College:</label>
+            <select name="" id="dropdown_selection" required>
+                <option value="">Select a College</option>
+                <option value="VSR college">VSR College</option>
+                <option value="ISR college">ISR College</option>
+                <option value="PSR college">PSR College</option>
+                <option value="GSP college">GSP College</option>
+            </select>
+        </div>
+        <button class="button">Submit</button>
+
+    </form>
+    
+</body>
+</html>
